@@ -1,0 +1,71 @@
+h1{
+    color:gray;
+}
+
+body {
+    background-color: maroon;
+    }
+
+.blue_overline_text{
+    color:blue;
+    text-decoration: overline;
+}
+
+#red_underline_text {
+    color: red;
+    text-decoration: underline;
+}
+
+#Header_text{
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    text-indent: 100px;
+    color: black;
+}
+
+#underline_text {
+    text-decoration: underline;
+}
+
+#bold_text {
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: underline;
+    text-indent: 200px;
+}
+
+#Left_bold{
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: left;
+    color: black;
+}
+
+#Right_bold{
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: right;
+}
+
+#Center_bold{
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+}
+
+#align_right{
+    float: right;
+}
+
+#align_left{
+    float: left;
+}
+
+#Larger_text {
+    font-size: 1.5em;
+}
