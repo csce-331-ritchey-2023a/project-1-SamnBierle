@@ -1,69 +1,77 @@
 <html>
-  <head>
-    <title>Samuel Bierle</title>
-    <link rel="stylesheet" type="text/css" href="style.css"></link>
-    <style>
-      /* Define container for the entire page */
-      .container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        height: 100vh;
-      }
-
-      /* Define header section */
-      .header-container {
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css"></link>
+  <style>
+    .header-container {
         background-color: lightblue;
         padding: 20px;
         text-align: center;
-      }
+    }
+    .main-body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 50px;
+    }
+    .title-container {
+      display: flex;
+      justify-content: space-between;
+      width: 80%;
+    }
+    
+    .left-title {
+      margin-right: auto;
+      font-weight: bold;
+      text-decoration: underline;
+    }
 
-      /* Define main content section */
-      main {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        background-color: maroon;
-        width: 100%;
-        height: 100%;
+    .right-title {
+      margin-left: auto;
+      font-weight: bold;
+      text-decoration: underline;
+    }
 
-        /* Align main on the left side */
+    .center-title {
+      text-align: center;
+      font-weight: bold;
+      text-decoration: underline;
+      margin-top: 50px;
+    }
 
-      }      
+    footer {
+      background-color: lightgray;
+      height: 50px;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+    }
 
-      /* Define footer section */
-      .footer-container {
-        background-color: lightblue;
-        padding: 20px;
-        text-align: center;
-        display: flex;
-        justify-content: space-between;
-      }
+    button {
+      height: 30px;
+      width: 80px;
+      margin: 10px;
+    }
 
-    </style>
+  </style>
+</head>
+<body>
+  <div class="header-container">
+    <h1 id = "Header_text">Activities and Services</h1>
+  </div>
 
-  </head>
-    <body>
-        <div class="header-container">
-            <h1 id = "Header_text">Activities & Services</h1>
-        </div>
-      
-        <div class="aside">
-            <aside>
-              <p class="alignleft">Text on the left.</p>
-              <p class="alignright">Text on the right.</p>
+  <div class="main-body">
+    <div class="title-container">
+      <h1 class="left-title">Activities</h1>
+      <h1 class="right-title">Services</h1>
+    </div>
+    <h2 class="center-title">Future Goals</h2>
+  </div>
 
-                <h4 id="Center_bold">Future Plans:</h4>
-                <p>Hello</p>
-            </aside>
-        </div>
-
-
-        <div class="footer-container">
-            <a href="Home.html" class="button">Home</a>
-            <a href="Projects.html" class="button">Projects</a>
-            <a href="Resume.html" class="button">Resume</a>
-            <a href="ChatGPT.html" class="button">AI</a>
-        </div>
-    </body>
+  <footer>
+    <a href="index.html">Home</a>
+    <a href="Projects.html">Projects</a>
+    <a href="Resume.html">Resume</a>
+    <a href="ChatGPT.html">AI</a>
+  </footer>
+</body>
 </html>
