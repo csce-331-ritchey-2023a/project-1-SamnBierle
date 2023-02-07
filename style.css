@@ -1,3 +1,5 @@
+/* Overarching Types and Classes */
+
 h1{
     color: black;
     font-weight: bold;
@@ -14,106 +16,117 @@ body {
     flex-direction: column;
     margin: 50px;
     background-color: maroon;
-  }
+}
   
 .title-container {
     display: flex;
     justify-content: flex-end;
-  }
+}
 
-  .title-wrap {
+.title-wrap {
     display: flex;
     flex-direction: column;
     text-align: center;
-  }
+}
 
-  .left-title-container {
+/* Styles for the three persisting containers */
+
+.left-title-container {
     display: flex;
     flex-direction: column;
     width: 50%;
     background-color: rgb(205, 205, 8);
-  }
+}
   
-  .right-title-container {
+.right-title-container {
     display: flex;
     flex-direction: column;
     width: 50%;
     margin-left: auto;
     margin-right: 0;
     background-color: rgb(234, 170, 50);
-    }
+}
 
-    .Resume-container {
-      display: flex;
-      flex-direction: column;
-      width: 50%;
-      margin-left: auto;
-      margin-right: 0;
-      background-color: rgb(234, 170, 50);
-      align-items: center;
-      }
-
-    .image-container {
-      display: flex;
-      flex-direction: column;
-      width: 20%;
-      margin-left: auto;
-      margin-right: 50px;
-      background-color: white;
-    }
-
-    .gif-container {
-      display: flex;
-      flex-direction: column;
-      width: 20%;
-      margin-left: auto;
-      margin-right: auto;
-      align-items: center;
-      background-color: white;
-    }
-  
-  .center-title-container {
+.center-title-container {
     margin-top: 30px; 
     background-color: rgb(240, 59, 59);
-  }
+}
 
-  .index-center-title-container {
+/* Styles for the resume or image containers */
+
+.Resume-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: auto;
+    margin-right: 0;
+    background-color: rgb(234, 170, 50);
+    align-items: center;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-left: auto;
+    margin-right: 50px;
+    background-color: white;
+}
+
+.gif-container {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    background-color: white;
+}
+
+/* Seperate Center Block for the Home page */
+
+.index-center-title-container {
     margin-top: 30px; 
   }
+
+/* Style for all container titles */
   
-  .left-title {
+.left-title {
     margin: auto;
     font-weight: bold;
     text-decoration: underline;
     text-align: center;
   }
 
-  .right-title {
+.right-title {
     margin: auto;
     font-weight: bold;
     text-decoration: underline;
     text-align: center;
   }
 
-  .center-title {
+.center-title {
     text-align: center;
     font-weight: bold;
     text-decoration: underline;
     margin-top: 20px;
   }
 
-  .left-text, .right-text{
-    /* Add styles for the text boxes */
+  /* Styles for all container text */
+
+.left-text, .right-text{
     width: 80%;
     margin: 20px;
     text-align: left;
   }
 
-  .center-text {
+.center-text {
     margin: 20px;
     text-align: left;
     color: white;
   }
+
+/* Style for Headers and Footers */
 
 .header-container {
     background-color: lightblue;
@@ -130,6 +143,16 @@ header {
   text-align: center;
 }
 
+footer {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Style for Media Links bar on Homepage */
+
 .links {
   margin-top: 20px;
   background-color: lightgray;
@@ -140,6 +163,8 @@ header {
   display: inline-block;
   margin: 0 10px;
 }
+
+/* Style for toggle button and its border */
 
 .container {
   margin-top: 10px; 
@@ -160,13 +185,7 @@ header {
   margin-bottom: 0.5em;
 }
 
-footer {
-    background-color: lightblue;
-    padding: 20px;
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
-}
+/* Basic or specific styles for text decoration */
 
 .Underline_text {
     text-decoration: underline;
