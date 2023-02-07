@@ -1,71 +1,173 @@
 h1{
-    color:gray;
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 body {
     background-color: maroon;
+}
+
+.main-body {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 50px;
+    background-color: maroon;
+  }
+  
+.title-container {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .title-wrap {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .left-title-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: lightcoral;
+  }
+  
+  .right-title-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: auto;
+    margin-right: 0;
+    background-color: lightgreen;
     }
 
-.blue_overline_text{
-    color:blue;
-    text-decoration: overline;
-}
+    .Resume-container {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      margin-left: auto;
+      margin-right: 0;
+      background-color: lightgreen;
+      align-items: center;
+      }
 
-#red_underline_text {
-    color: red;
-    text-decoration: underline;
-}
+    .image-container {
+      display: flex;
+      flex-direction: column;
+      width: 20%;
+      margin-left: auto;
+      margin-right: 50px;
+      background-color: white;
+    }
+  
+  .center-title-container {
+    margin-top: 30px; 
+    background-color: darkviolet;
+  }
 
-#Header_text{
-    font-size: 2em;
+  .index-center-title-container {
+    margin-top: 30px; 
+  }
+  
+  .left-title {
+    margin: auto;
     font-weight: bold;
     text-decoration: underline;
     text-align: center;
-    text-indent: 100px;
-    color: black;
-}
+  }
 
-#underline_text {
-    text-decoration: underline;
-}
-
-#bold_text {
-    font-size: 2em;
+  .right-title {
+    margin: auto;
     font-weight: bold;
     text-decoration: underline;
-    text-indent: 200px;
-}
+    text-align: center;
+  }
 
-#Left_bold{
-    font-size: 2em;
+  .center-title {
+    text-align: center;
     font-weight: bold;
     text-decoration: underline;
+    margin-top: 20px;
+  }
+
+  .left-text, .right-text{
+    /* Add styles for the text boxes */
+    width: 80%;
+    margin: 20px;
     text-align: left;
-    color: black;
-}
+  }
 
-#Right_bold{
-    font-size: 2em;
-    font-weight: bold;
-    text-decoration: underline;
-    text-align: right;
-}
+  .center-text {
+    margin: 20px;
+    text-align: left;
+    color: white;
+  }
 
-#Center_bold{
-    font-size: 2em;
-    font-weight: bold;
-    text-decoration: underline;
+.header-container {
+    background-color: lightblue;
+    padding: 20px;
     text-align: center;
+  }
+
+header {
+  background-color: lightgray;
+  height: 50px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
 }
 
-#align_right{
-    float: right;
+.links {
+  margin-top: 20px;
+  background-color: lightgray;
+  text-align: center;
 }
 
-#align_left{
-    float: left;
+.links a {
+  display: inline-block;
+  margin: 0 10px;
 }
 
-#Larger_text {
-    font-size: 1.5em;
+.container {
+  margin-top: 10px; 
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.2em;
 }
+
+#lastDiv {
+  margin-bottom: 0.5em;
+}
+
+footer {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Underline_text {
+    text-decoration: underline;
+    color: blue;
+}
+
+.bold_text {
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#About_Me {
+    font-weight: bold;
+    font-size: 1.03em;
+}
+
+
