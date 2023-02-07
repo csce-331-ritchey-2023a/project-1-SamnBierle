@@ -64,6 +64,12 @@ body {
     align-items: center;
 }
 
+.resume-text{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
 .image-container {
     display: flex;
     flex-direction: column;
