@@ -1,96 +1,91 @@
 <html>
   <head>
-    <title>Samuel Bierle</title>
-    <link rel="stylesheet" type="text/css" href="style.css"></link>
-    <style>
-      /* Define container for the entire page */
-      .container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        height: 100vh;
-      }
-
-      /* Define header section */
-      .header-container {
-        background-color: lightblue;
-        padding: 20px;
-        text-align: center;
-      }
-
-      /* Define main content section */
-      main {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        background-color: maroon;
-        width: 100%;
-        height: 100%;
-
-        /* Align main on the left side */
-
-      }
-
-      aside{
-        display: flex;
-        flex-direction: column;
-        justify-content: left;
-        background-color: red;
-        width: 40%;
-        height: 55%;
-        padding: 20px;
-        margin-right: auto;
-        border: 80px solid maroon;
-      }
-
-
-    button_section{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        background-color: white;
-        position: relative;
-        top: 450px;
-        height: 55%;
-        margin-left: auto;
-        border: 80px solid maroon;
-    }
-      
-
-      /* Define footer section */
-      .footer-container {
-        background-color: lightblue;
-        padding: 20px;
-        text-align: center;
-        display: flex;
-        justify-content: space-between;
-      }
-
-    </style>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link id="mainStyleSheet" rel="stylesheet" href="style.css" />
+    <title>Home</title>
 
   </head>
+
     <body>
+
         <div class="header-container">
-            <h1 id = "Header_text">My Website</h1>
+            <h1>My Website</h1>
         </div>
       
-        <div class="aside">
-            <aside>
-                <p id="bold_text">About Me:</p>
+        <div class="main-body">
+          <div class="title-wrap">
+            <div class="title-container">
+              <div class="left-title-container">
+                <h1 class="left-title">About Me:</h1>
+                <div class="left-text">
+                  <p id="About_Me">Name: Samuel Newton Bierle</p>
+                  <p id="About_Me">Phone #: 817-123-4567</p>
+                  <p id="About_Me">Email: Sam.nbierle@gmail.com</p>
+                  <p id="About_Me">School: Texas A&M University at College Station</p>
+                  <p id="About_Me">Major: Computer Engineering</p>
+                </div>
+              </div>
 
-                <p id="Larger_text">Name: Samuel Bierle</p>
-                <p id="Larger_text">School: Texas A&M University at College Station</p>
-                <p id="Larger_text">Major: Computer Engineering</p>
-            </aside>
-        </div>
+              <div class="image-container">
+                <img src="https://upload.wikimedia.org/wikipedia/en/f/f7/Texas_A%26M_University_seal.svg" alt="Texas A&M University Seal">
+              </div>
+            </div>
 
-
-        <div class="footer-container">
-            <a href="ChatGPT.html" class="button">AI</a>
-            <a href="Projects.html" class="button">Projects</a>
-            <a href="Activity.html" class="button">Activity</a>
-            <a href="Resume.html" class="button">Resume</a>
-            <a href="HTML_Home.html" class="button">Without CSS</a>
+            <div class="index-center-title-container">
+              <div class="center-text">
+                <p> Howdy! </p>
+                <p> My name is Samuel Bierle and welcome to my website! I am a Junior Computer Engineer at Texas A&M University at College Station and am planning to obtain my degree in spring of 
+                  2024. I'm seeking to become a Software Engineer because of my strong affinity for programming and my interest in the development of technology. My favorite programming assignments are those 
+                 with which I have to work in a group and solve a long-withstanding problem, because whether we succeed or otherwise theres always something new to learn from the experience. My main concern when looking for a job
+                 is determining whether or not that job could provide me with a social atmosphere, this is because I believe that people can grow much faster and more efficiently when given a team to bounce off of
+                 and socialize with. Throughout this website I hope you get a better idea of my personality and get to better understand me by both my aspirations and my past experiences. 
+                 Although my media presence is nearly nonexistant, if by some chance you'd like to learn any more about me please use any of the links shown below. </p>
+              </div>
+            </div>
+          </div>
         </div>
     </body>
+
+    <div class="links">
+      <h1>Media Links</h1>
+      <a href="https://www.linkedin.com/in/samuel-bierle-a44481237/">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg" alt="LinkedIn_icon" width="60">
+      </a>
+
+      <a href="https://twitter.com/BierleSamuel">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Twitter-logo.svg" alt="Twitter_icon" width="60">
+      </a>
+
+      <a href="https://www.facebook.com/sam.bierle.7" >
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Facebook_icon.svg" alt="Facebook_icon" width="60">
+      </a>
+
+      <a href="https://www.instagram.com/sambierle/">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" alt="Instagram_icon" width="60">
+      </a>
+      
+      <a href="https://www.youtube.com/channel/UC3nAMzaBDwuz7Hip1wDCzEQ">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg" alt="YouTube_icon" width="60">
+      </a>
+      
+    </div>
+
+
+    <div class="container">
+      <div id="lastDiv" class="row border">
+        <p>Change the background color.</p>
+      </div>
+      <button onclick="toggleStyleSheet()" type="button">Toggle Style</button>
+    </div>
+
+  <script src="Switch.js"></script>
+
+  <footer>
+    <a href="ChatGPT.html" class="button">AI</a>
+    <a href="Projects.html" class="button">Projects</a>
+    <a href="Activity.html" class="button">Activity</a>
+    <a href="Resume.html" class="button">Resume</a>
+  </footer>
 </html>
