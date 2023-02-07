@@ -1,7 +1,11 @@
 function toggleStyleSheet(){
 
+    // Get the style element by ID and check its file name
+
     const styleElement = document.getElementById("mainStyleSheet");
     var filename = styleElement.getAttribute("href");
+
+    // Determine  the new stylesheet file name
 
     var newFilename = "style2.css";
     if (filename == "style.css") {
@@ -10,10 +14,13 @@ function toggleStyleSheet(){
         newFilename = "style.css";
     }
 
+    // Replace the original stylesheet with a new stylesheet and save the new stylesheet name to localStorage
+
     styleElement.setAttribute("href", newFilename);
     localStorage.setItem("stylesheet", newFilename);
 }
 
+// Make the style persist even when someone refreshes the page
 
 window.onload = function(){
 
