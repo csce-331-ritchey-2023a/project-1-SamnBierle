@@ -1,3 +1,5 @@
+/* Overarching Types and Classes */
+
 h1{
   color: black;
   font-weight: bold;
@@ -32,6 +34,8 @@ body {
   background-color: maroon;
 }
 
+/* Styles for the three persisting containers */
+
 .left-title-container {
   display: flex;
   flex-direction: column;
@@ -52,7 +56,24 @@ body {
   margin-top: 30px;
   margin-bottom: 30px;
   background-color: lightgreen;
-  }
+}
+
+.center-title-container {
+  margin-top: 30px; 
+  background-color: darkviolet;
+}
+
+/* Styles for the resume or image containers */
+
+.Resume-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+  background-color: lightgreen;
+  align-items: center;
+  margin-top: 30px;
+}
 
 .image-container {
   display: flex;
@@ -75,12 +96,23 @@ body {
   background-color: white;
 }
 
+/* Seperate Center Block for the Home page */
+
 .index-center-title-container { 
   font-size: large;
   order: -1;
 }
 
+/* Style for all container titles */
+
 .left-title {
+  margin: auto;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.right-title {
   margin: auto;
   font-weight: bold;
   text-decoration: underline;
@@ -94,12 +126,7 @@ body {
   margin-top: 10px;
 }
 
-.right-title {
-  margin: auto;
-  font-weight: bold;
-  text-decoration: underline;
-  text-align: center;
-}
+/* Styles for all container text */
 
 .left-text, .right-text{
   width: 80%;
@@ -113,20 +140,7 @@ body {
   color: white;
 }
 
-  .Resume-container {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    margin: 0 auto;
-    background-color: lightgreen;
-    align-items: center;
-    margin-top: 30px;
-    }
-
-.center-title-container {
-  margin-top: 30px; 
-  background-color: darkviolet;
-}
+/* Style for Headers and Footers */
 
 .header-container {
   background-color: lightblue;
@@ -142,6 +156,20 @@ display: flex;
 justify-content: space-between;
 text-align: center;
 }
+
+footer {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: lightgray;
+  position: absolute;
+  top: 438px;
+  left: 38;
+}
+
+/* Style for Media Links bar on Homepage */
 
 .links {
   width: 200px;
@@ -159,6 +187,8 @@ text-align: center;
     display: inline-block;
     margin-bottom: 30px;
   }
+
+/* Style for toggle button and its border */
 
 .container {
   margin-top: 100px;
@@ -186,21 +216,11 @@ text-align: center;
 margin-bottom: 0.5em;
 }
 
-footer {
-  width: 100px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
-  background-color: lightgray;
-  position: absolute;
-  top: 438px;
-  left: 38;
-}
-
 .button{
   margin-bottom: 30px;
 }
+
+/* Basic or specific styles for text decoration */
 
 .Underline_text {
   text-decoration: underline;
