@@ -1,54 +1,47 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <style>
-      .header-container {
-        background-color: lightblue;
-        padding: 20px;
-      }
-
-      .footer-container {
-        background-color: lightblue;
-        padding: 20px;
-        text-align: center;
-        display: flex;
-        justify-content: space-between;
-      }
-
-      .main-section {
-        padding: 20px;
-      }
-
-      .button {
-        background-color: lightblue;
-        border: none;
-        color: white;
-        padding: 15px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        margin: 10px 2px;
-      }
-    </style>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>ChatGPT Page</title>
   </head>
   <body>
-
     <div class="header-container">
-      <h1>Header Container</h1>
+      <h1>ChatGPT Page</h1>
     </div>
-
-    <div class="main-section">
-      <h2>How to use ChatGPT</h2>
-      <p>ChatGPT is a large language model that can answer questions and complete various tasks based on its training data. To use ChatGPT, simply ask it a question or provide it with a prompt and it will generate a response. It is important to be as specific as possible with your request to get the best results. </p>
-      <h3>Proposed Command</h3>
-      <p>Make an html page including a header and footer container, both light blue, and have instructions on how to use ChatGPT in the main section. Underneath this include 4 buttons within the footer section of the page, the first button leads to "Home.html" and is titled "Home", the second button leads to "Projects.html" and is titled "Projects", the third button leads to "Activity.html" and is titled "Activity" and the fourth button leads to "Resume.html" and is titled "Resume"</p>
+    <div class="main-body">
+      <div class="title-wrap">
+        <div class="title-container">
+          <div class="left-title-container">
+            <div class="left-title">
+              <h1>When I finished my website</h1>
+            </div>
+            <div class="gif-container">
+              <img src="https://media.giphy.com/media/COYGe9rZvfiaQ/giphy.gif">
+            </div>
+          </div>
+          <div class="right-title-container">
+            <div class="right-title">
+              <h1>ChatGPT Information</h1>
+            </div>
+            <p>ChatGPT can be used for a variety of tasks, including text generation, language translation, and question-answering.</p>
+            <p>To use ChatGPT, simply input a prompt and receive an output based on the model's training data.</p>
+            <p>ChatGPT was created by OpenAI and has over 175 billion parameters, making it one of the largest language models to date.</p>
+            <p>It can generate human-like text, but it is important to remember that it is not a human and may not always understand the context of the prompt.</p>
+          </div>
+        </div>
+      </div>
     </div>
-    
-    <div class="footer-container">
-      <a href="index.html" class="button">Home</a>
-      <a href="Projects.html" class="button">Projects</a>
-      <a href="Activity.html" class="button">Activity</a>
-      <a href="Resume.html" class="button">Resume</a>
+    <div class="center-title-container">
+      <div class="center-title">
+        <h1>Prompt</h1>
+      </div>
+      <p>Create a webpage using html utilizing three containers, two on the same row, indented on the left and right individually, and a third container below both others. the container on the left should have a class "left-title-container", this container should include a header "When I finished my website" which has the div class "left-title" for h1, inside should be the moving image with link https://media.giphy.com/media/COYGe9rZvfiaQ/giphy.gif and div class "gif-container". The container on the right should have the class "right-title-container" and should include a paragraph on how chatGPT can be used as well as instructions on how to use it (both on separate lines), in addition to this it should contain two paragraphs of interesting facts about ChatGPT after the instructions, this container should include a header "ChatGPT Information" which has the div class "right-title" for h1, both sentences listed individually. Both classes "left-title-container" and "right-title-container" should be in the div classes "div class = title-container", "div class = title-wrap", and "div class = main-body" with "main-body" coming first, "title-wrap" second and "title-container" last, all of this is done in the body, after the header. The final container should have the class "center-title-container", a title "Prompt" using h1 and class "center-title", and should have the text aligned to the left. Finally, there should be both a header and footer, the header should have the class "header-container" and have the text "ChatGPT Page" with just (h1) (I used the arrows instead), no class or id. The footer shouldn't have a class, simply (footer) (I used the arrows instead) with 4 buttons lined up evenly and labeled "Home", "Projects", "Activity", "Resume". The Home button should lead to "index.html", the Projects button should lead to "Projects.html", the Activity button should lead to "Activity.html" and the Resume button should lead to "Resume.html". The page should also link to a stylesheet title "style.css".</p>
     </div>
+    <footer>
+      <button><a href="index.html">Home</a></button>
+      <button><a href="Projects.html">Projects</a></button>
+      <button><a href="Activity.html">Activity</a></button>
+      <button><a href="Resume.html">Resume</a></button>
+    </footer>
   </body>
 </html>
