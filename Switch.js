@@ -1,10 +1,3 @@
-var num = 0; 
-
-function button1() {
-    num++;
-    document.getElementById("output").innerHTML = "Press x " + num;
-}
-
 function toggleStyleSheet(){
 
     const styleElement = document.getElementById("mainStyleSheet");
